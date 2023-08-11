@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Raleway:ital,wght@0,500;0,600;0,700;0,800;0,900;1,300;1,400&family=Work+Sans:wght@300;400;500&family=Yeseva+One&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html,
+#root {
+   height: 100%;
+}
+
+@layer base {
+   button {
+      @apply w-[108px] h-12 rounded-3xl py-4 px-6 text-base font-[lato] font-semibold leading-4;
+   }
+}
+
+@layer components {
+   .lato {
+      font-family: "Lato", sans-serif;
+   }
+   .raleway {
+      font-family: "Raleway", sans-serif;
+   }
+   .skew-y {
+      transform: skewY(3deg);
+   }
+
+   .skew-x {
+      transform: skewX(3deg);
+   }
+}
