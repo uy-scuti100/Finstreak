@@ -8,11 +8,12 @@ body,
 html,
 #root {
    height: 100%;
+   background: #fafafa;
 }
 
 @layer base {
    button {
-      @apply w-[108px] h-12 rounded-3xl py-4 px-6 text-base font-[lato] font-semibold leading-4;
+      @apply min-w-[108px] h-12 rounded-3xl py-4 px-6 text-base font-[lato] font-semibold leading-4;
    }
 }
 
@@ -29,5 +30,11 @@ html,
 
    .skew-x {
       transform: skewX(3deg);
+   }
+   .sponsor-logo {
+      mix-blend-mode: luminosity;
+   }
+   .carousel::-webkit-scrollbar {
+      display: none;
    }
 }
