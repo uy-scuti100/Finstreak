@@ -7,8 +7,8 @@ import slider from "../public/assets/slideIndicator.png";
 const HerosSection = () => {
    return (
       <div className="max-w-[1104px] mx-auto lg:px-[88px] px-[20px] flex flex-col lg:flex-row items-center gap-[5.81rem] pt-[120px] lg:pt-0">
-         <div className=" basis-1/2 self-start lg:self-center">
-            <h1 className="pb-4 raleway font-extrabold text-[35px] md:text-[60px] lg:text-[50px] md:leading-[72px]">
+         <div className="text-center lg:text-left basis-1/2 self-start md:self-center">
+            <h1 className="pb-4 raleway font-extrabold text-[35px] md:text-[50px] lg:text-[50px] md:leading-[62px]">
                Plan, Save, Grow:
                <br />
                Your Partner in <br />

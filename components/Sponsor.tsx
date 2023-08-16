@@ -9,7 +9,7 @@ import bitcoin from "../public/assets/bitcoin logo.png";
 
 const Sponsor = () => {
    return (
-      <section className="my-[5.5rem]">
+      <section className="max-w-[1280px] mx-auto my-[5.5rem]">
          <div className="w-full border border-black/40" />
          <div className="">
             <h2 className="text-xl lato font-medium leading-8 pt-10 text-center">
